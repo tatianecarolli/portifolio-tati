@@ -1,0 +1,162 @@
+
+/* Resetar estilos padrão */
+* {
+    margin: 0;
+    padding: 0; 
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Cor de fundo clara para contraste */
+    padding: 20px;
+}
+
+/* Estilo para o texto de introdução */
+.intro-text {
+    color: #006400; /* Verde escuro */
+    font-size: 25px; /* Tamanho de fonte */
+    line-height: 1.6; /* Altura da linha */
+    margin-bottom: 20px; /* Espaçamento abaixo do parágrafo */
+}
+
+/* Estilo para o texto em azul escuro */
+.azul-escuro {
+    color: #00008B; /* Azul escuro */
+    font-weight: bold; /* Negrito, opcional */
+    font-size: 30px; /* Tamanho da fonte, opcional */
+}
+
+/* Outros estilos do site */
+h1, h2, h3 {
+    color: purple;
+    text-align: center;
+    margin: 32px 0;
+}
+
+.header-menu {
+    background-color: #7B54FF; /* Roxo */
+    display: flex;
+    position: fixed;
+    width: 100%;
+    padding: 32px 8px;
+    align-items: center;
+    z-index: 1000;
+}
+
+.header-menu nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.lista-menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+    align-items: center;
+}
+
+.lista-menu li > a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.principal {
+    display: flex;
+    background-color: #D1FFD6; /* Verde claro */
+    min-height: 100vh;
+    width: 100%;
+    padding: 96px 0 64px;
+}
+
+.subcontainer-principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+.image-container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.principal-2, .principal-3 {
+    display: flex;
+    background-color: #C8FFD6; /* Verde claro */
+    width: 100%;
+}
+
+.subcontainer-principal2, .subcontainer-principal3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.texto-1 {
+    padding: 32px;
+}
+
+.lista-item {
+    padding: 32px;
+}
+
+.lista-item ul li {
+    margin-bottom: 52px;
+}
+
+.footer {
+    background-color: #556B2F; /* Verde musgo */
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    justify-content: center;
+}
+
+.contato {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 968px;
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.lista-footer {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: normal;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.estilo-icon {
+    font-size: 32px;
+    margin-right: 20px;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
